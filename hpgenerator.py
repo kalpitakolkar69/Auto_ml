@@ -40,7 +40,7 @@ print(b)
 with open('model_hparam.json', 'w') as f:
     json.dump(b, f, indent=2)
 
-c = {'result': []}
-with open('results.json', 'w') as g:
-    json.dump(c, g, indent=2)
+# c = {'result': []}
+# with open('results.json', 'w') as g:
+#     json.dump(c, g, indent=2)
    
