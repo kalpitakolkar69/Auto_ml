@@ -1,0 +1,1204 @@
+{
+  "hyper_params": [
+    {
+      "n_convo": 1,
+      "n_dense": 2,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 256,
+      "neu_fstd": [
+        256,
+        128
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 1,
+      "n_dense": 2,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 512,
+      "neu_fstd": [
+        512,
+        256
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 1,
+      "n_dense": 2,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 1024,
+      "neu_fstd": [
+        1024,
+        512
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 1,
+      "n_dense": 3,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 256,
+      "neu_fstd": [
+        256,
+        128,
+        64
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 1,
+      "n_dense": 3,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 512,
+      "neu_fstd": [
+        512,
+        256,
+        128
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 1,
+      "n_dense": 3,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 1024,
+      "neu_fstd": [
+        1024,
+        512,
+        256
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 1,
+      "n_dense": 4,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 256,
+      "neu_fstd": [
+        256,
+        128,
+        64,
+        32
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 1,
+      "n_dense": 4,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 512,
+      "neu_fstd": [
+        512,
+        256,
+        128,
+        64
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 1,
+      "n_dense": 4,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 1024,
+      "neu_fstd": [
+        1024,
+        512,
+        256,
+        128
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 1,
+      "n_dense": 5,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 256,
+      "neu_fstd": [
+        256,
+        128,
+        64,
+        32,
+        16
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 1,
+      "n_dense": 5,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 512,
+      "neu_fstd": [
+        512,
+        256,
+        128,
+        64,
+        32
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 1,
+      "n_dense": 5,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 1024,
+      "neu_fstd": [
+        1024,
+        512,
+        256,
+        128,
+        64
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 2,
+      "n_dense": 2,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32,
+        64
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 256,
+      "neu_fstd": [
+        256,
+        128
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 2,
+      "n_dense": 2,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32,
+        64
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 512,
+      "neu_fstd": [
+        512,
+        256
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 2,
+      "n_dense": 2,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32,
+        64
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 1024,
+      "neu_fstd": [
+        1024,
+        512
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 2,
+      "n_dense": 3,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32,
+        64
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 256,
+      "neu_fstd": [
+        256,
+        128,
+        64
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 2,
+      "n_dense": 3,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32,
+        64
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 512,
+      "neu_fstd": [
+        512,
+        256,
+        128
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 2,
+      "n_dense": 3,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32,
+        64
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 1024,
+      "neu_fstd": [
+        1024,
+        512,
+        256
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 2,
+      "n_dense": 4,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32,
+        64
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 256,
+      "neu_fstd": [
+        256,
+        128,
+        64,
+        32
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 2,
+      "n_dense": 4,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32,
+        64
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 512,
+      "neu_fstd": [
+        512,
+        256,
+        128,
+        64
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 2,
+      "n_dense": 4,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32,
+        64
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 1024,
+      "neu_fstd": [
+        1024,
+        512,
+        256,
+        128
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 2,
+      "n_dense": 5,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32,
+        64
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 256,
+      "neu_fstd": [
+        256,
+        128,
+        64,
+        32,
+        16
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 2,
+      "n_dense": 5,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32,
+        64
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 512,
+      "neu_fstd": [
+        512,
+        256,
+        128,
+        64,
+        32
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 2,
+      "n_dense": 5,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32,
+        64
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 1024,
+      "neu_fstd": [
+        1024,
+        512,
+        256,
+        128,
+        64
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 3,
+      "n_dense": 2,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32,
+        64,
+        128
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 256,
+      "neu_fstd": [
+        256,
+        128
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 3,
+      "n_dense": 2,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32,
+        64,
+        128
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 512,
+      "neu_fstd": [
+        512,
+        256
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 3,
+      "n_dense": 2,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32,
+        64,
+        128
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 1024,
+      "neu_fstd": [
+        1024,
+        512
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 3,
+      "n_dense": 3,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32,
+        64,
+        128
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 256,
+      "neu_fstd": [
+        256,
+        128,
+        64
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 3,
+      "n_dense": 3,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32,
+        64,
+        128
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 512,
+      "neu_fstd": [
+        512,
+        256,
+        128
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 3,
+      "n_dense": 3,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32,
+        64,
+        128
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 1024,
+      "neu_fstd": [
+        1024,
+        512,
+        256
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 3,
+      "n_dense": 4,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32,
+        64,
+        128
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 256,
+      "neu_fstd": [
+        256,
+        128,
+        64,
+        32
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 3,
+      "n_dense": 4,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32,
+        64,
+        128
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 512,
+      "neu_fstd": [
+        512,
+        256,
+        128,
+        64
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 3,
+      "n_dense": 4,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32,
+        64,
+        128
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 1024,
+      "neu_fstd": [
+        1024,
+        512,
+        256,
+        128
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 3,
+      "n_dense": 5,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32,
+        64,
+        128
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 256,
+      "neu_fstd": [
+        256,
+        128,
+        64,
+        32,
+        16
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 3,
+      "n_dense": 5,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32,
+        64,
+        128
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 512,
+      "neu_fstd": [
+        512,
+        256,
+        128,
+        64,
+        32
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 3,
+      "n_dense": 5,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32,
+        64,
+        128
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 1024,
+      "neu_fstd": [
+        1024,
+        512,
+        256,
+        128,
+        64
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 4,
+      "n_dense": 2,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32,
+        64,
+        128,
+        256
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 256,
+      "neu_fstd": [
+        256,
+        128
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 4,
+      "n_dense": 2,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32,
+        64,
+        128,
+        256
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 512,
+      "neu_fstd": [
+        512,
+        256
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 4,
+      "n_dense": 2,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32,
+        64,
+        128,
+        256
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 1024,
+      "neu_fstd": [
+        1024,
+        512
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 4,
+      "n_dense": 3,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32,
+        64,
+        128,
+        256
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 256,
+      "neu_fstd": [
+        256,
+        128,
+        64
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 4,
+      "n_dense": 3,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32,
+        64,
+        128,
+        256
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 512,
+      "neu_fstd": [
+        512,
+        256,
+        128
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 4,
+      "n_dense": 3,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32,
+        64,
+        128,
+        256
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 1024,
+      "neu_fstd": [
+        1024,
+        512,
+        256
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 4,
+      "n_dense": 4,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32,
+        64,
+        128,
+        256
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 256,
+      "neu_fstd": [
+        256,
+        128,
+        64,
+        32
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 4,
+      "n_dense": 4,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32,
+        64,
+        128,
+        256
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 512,
+      "neu_fstd": [
+        512,
+        256,
+        128,
+        64
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 4,
+      "n_dense": 4,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32,
+        64,
+        128,
+        256
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 1024,
+      "neu_fstd": [
+        1024,
+        512,
+        256,
+        128
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 4,
+      "n_dense": 5,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32,
+        64,
+        128,
+        256
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 256,
+      "neu_fstd": [
+        256,
+        128,
+        64,
+        32,
+        16
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 4,
+      "n_dense": 5,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32,
+        64,
+        128,
+        256
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 512,
+      "neu_fstd": [
+        512,
+        256,
+        128,
+        64,
+        32
+      ],
+      "lr": 0.001,
+      "bs": 128
+    },
+    {
+      "n_convo": 4,
+      "n_dense": 5,
+      "convo_krn": [
+        11,
+        9,
+        7,
+        5,
+        3
+      ],
+      "n_filter": [
+        32,
+        64,
+        128,
+        256
+      ],
+      "pool_krn": 2,
+      "top_dense_layer": 1024,
+      "neu_fstd": [
+        1024,
+        512,
+        256,
+        128,
+        64
+      ],
+      "lr": 0.001,
+      "bs": 128
+    }
+  ]
+}
